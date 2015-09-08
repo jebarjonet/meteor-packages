@@ -1,7 +1,26 @@
 # Meteor packages we need
 Basic packages needed to start a nice project
 
+## Table of contents
+- **[Global](#global)**
+- [CSS](#css)
+- [Collections](#collections)
+- [Emails](#emails)
+- [Files](#files)
+- [Forms](#forms)
+- [Routes](#routes)
+- [SEO](#seo)
+- [Streaming](#streaming)
+- [Templates](#templates)
+- [Users](#users)
+
 **Remember** to remove [insecure](https://atmospherejs.com/meteor/insecure) and [autopublish](https://atmospherejs.com/meteor/autopublish) packages.
+
+## Global
+- [stevezhu:lodash](https://atmospherejs.com/stevezhu/lodash): Lodash *(remember to `_ = lodash;` to override underscore)*
+- [reactive-var](https://atmospherejs.com/meteor/reactive-var): Creates a reactive data source
+- [tracker](https://atmospherejs.com/meteor/tracker) : Creates reactive computation
+- [session](https://atmospherejs.com/meteor/session) : Session variable
 
 ## CSS
 - [fourseven:scss](https://atmospherejs.com/fourseven/scss): Compiles Sass files with node-sass and it has options to control the load order of Sass files and use Autoprefixer on the generated CSS.
@@ -15,7 +34,7 @@ Basic packages needed to start a nice project
 - [matb33:collection-hooks](https://atmospherejs.com/matb33/collection-hooks): Extends Mongo.Collection with before/after hooks for insert/update/remove/find/findOne
 - [meteorhacks:aggregate](https://atmospherejs.com/meteorhacks/aggregate): Proper MongoDB aggregations support *(server side, not reactive)*
 
-## Email
+## Emails
 - [email](https://atmospherejs.com/meteor/email)
 
 ## Files
@@ -23,12 +42,6 @@ Basic packages needed to start a nice project
 
 ## Forms
 - [aldeed:autoform](https://atmospherejs.com/aldeed/autoform): Adds UI components and helpers to easily create basic forms with automatic insert and update events, and automatic reactive validation, better with **collection2** *(lot of inputs plugins for autoform available (file upload, autocomplete, selects, maps, etc.))*
-
-## Global
-- [stevezhu:lodash](https://atmospherejs.com/stevezhu/lodash): Lodash *(remember to `_ = lodash;` to override underscore)*
-- [reactive-var](https://atmospherejs.com/meteor/reactive-var): Creates a reactive data source
-- [tracker](https://atmospherejs.com/meteor/tracker) : Creates reactive computation
-- [session](https://atmospherejs.com/meteor/session) : Session variable
 
 ## Routes
 - [iron:router](https://atmospherejs.com/iron/router): Router
