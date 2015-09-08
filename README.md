@@ -1,8 +1,11 @@
 # Meteor packages we need
 Basic packages needed to start a nice project
 
+**Remember** to remove [insecure](https://atmospherejs.com/meteor/insecure) and [autopublish](https://atmospherejs.com/meteor/autopublish) packages.
+
 ## Table of contents
-- **[Global](#global)**
+- **[Quick copy](#quick-copy)**
+- [Global](#global)
 - [CSS](#css)
 - [Collections](#collections)
 - [Emails](#emails)
@@ -14,10 +17,14 @@ Basic packages needed to start a nice project
 - [Templates](#templates)
 - [Users](#users)
 
-**Remember** to remove [insecure](https://atmospherejs.com/meteor/insecure) and [autopublish](https://atmospherejs.com/meteor/autopublish) packages.
+## Quick copy
+To get almost all of these packages names in a single copy/paste. Remember to remove unnecessary ones :
+```
+meteor add stevezhu:lodash reactive-var tracker session fourseven:scss twbs:bootstrap fortawesome:fontawesome aldeed:collection2 reywood:publish-composite dburles:collection-helpers matb33:collection-hooks meteorhacks:aggregate email cfs:standard-packages aldeed:autoform iron:router multiply:iron-router-progress zimme:active-route zimme:iron-router-auth manuelschoebel:ms-seo yuukan:streamy aldeed:template-extension accounts-base accounts-password jalik:roles
+```
 
 ## Global
-- [stevezhu:lodash](https://atmospherejs.com/stevezhu/lodash): Lodash *(remember to `_ = lodash;` to override underscore)*
+- [stevezhu:lodash](https://atmospherejs.com/stevezhu/lodash): Lodash *(remember to add `_ = lodash;` to override underscore)*
 - [reactive-var](https://atmospherejs.com/meteor/reactive-var): Creates a reactive data source
 - [tracker](https://atmospherejs.com/meteor/tracker) : Creates reactive computation
 - [session](https://atmospherejs.com/meteor/session) : Session variable
