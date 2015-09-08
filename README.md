@@ -20,12 +20,15 @@ Basic packages needed to start a nice project
 ## Quick copy
 To get almost all those packages in a single copy/paste. Remove unnecessary ones :
 ```
+meteor remove insecure autopublish
+```
+```
 meteor add stevezhu:lodash reactive-var tracker session fourseven:scss twbs:bootstrap fortawesome:fontawesome aldeed:collection2 reywood:publish-composite dburles:collection-helpers matb33:collection-hooks meteorhacks:aggregate email cfs:standard-packages aldeed:autoform iron:router multiply:iron-router-progress zimme:active-route zimme:iron-router-auth manuelschoebel:ms-seo yuukan:streamy aldeed:template-extension accounts-base accounts-password jalik:roles
 ```
 
 ## Global
 - [stevezhu:lodash](https://atmospherejs.com/stevezhu/lodash): Lodash *(remember to add `_ = lodash;` to override underscore)*
-- [reactive-var](https://atmospherejs.com/meteor/reactive-var): Creates a reactive data source
+- [reactive-var](https://atmospherejs.com/meteor/reactive-var): Creates reactive data source
 - [tracker](https://atmospherejs.com/meteor/tracker) : Creates reactive computation
 - [session](https://atmospherejs.com/meteor/session) : Session variable
 
