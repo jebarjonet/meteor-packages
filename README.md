@@ -63,7 +63,7 @@ meteor add stevezhu:lodash reactive-var tracker session fourseven:scss twbs:boot
 - [manuelschoebel:ms-seo](https://atmospherejs.com/manuelschoebel/ms-seo): SEO helper
 
 ## Streaming
-- [arunoda:meteor-streams](https://atmospherejs.com/arunoda/meteor-streams): Used for classic socket communication without needing a database (example : a chat)
+- [yuukan:streamy](https://atmospherejs.com/yuukan/streamy): Used for classic socket communication without needing a database (example : a chat)
 
 ## Templates
 - [aldeed:template-extension](https://atmospherejs.com/aldeed/template-extension): Template hooks + inheritance and copy of template events/helpers
