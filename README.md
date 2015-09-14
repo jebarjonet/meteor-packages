@@ -23,7 +23,7 @@ To get almost all those packages in a single copy/paste. Remove unnecessary ones
 meteor remove insecure autopublish
 ```
 ```
-meteor add stevezhu:lodash reactive-var tracker session softwarerero:accounts-t9n fourseven:scss twbs:bootstrap fortawesome:fontawesome aldeed:collection2 reywood:publish-composite dburles:collection-helpers matb33:collection-hooks meteorhacks:aggregate email cfs:standard-packages aldeed:autoform iron:router multiply:iron-router-progress zimme:active-route zimme:iron-router-auth manuelschoebel:ms-seo yuukan:streamy aldeed:template-extension accounts-base accounts-password jalik:roles
+meteor add stevezhu:lodash reactive-var tracker session fourseven:scss twbs:bootstrap fortawesome:fontawesome aldeed:collection2 reywood:publish-composite dburles:collection-helpers matb33:collection-hooks meteorhacks:aggregate email cfs:standard-packages aldeed:autoform iron:router multiply:iron-router-progress zimme:active-route zimme:iron-router-auth manuelschoebel:ms-seo yuukan:streamy aldeed:template-extension accounts-base accounts-password jalik:roles
 ```
 
 ## Global
@@ -31,7 +31,6 @@ meteor add stevezhu:lodash reactive-var tracker session softwarerero:accounts-t9
 - [reactive-var](https://atmospherejs.com/meteor/reactive-var): Creates reactive data source
 - [tracker](https://atmospherejs.com/meteor/tracker) : Creates reactive computation
 - [session](https://atmospherejs.com/meteor/session) : Session variable
-- [softwarerero:accounts-t9n](https://atmospherejs.com/softwarerero/accounts-t9n) : Almost i18n, with standard translations for basic meteor packages
 
 ## CSS
 - [fourseven:scss](https://atmospherejs.com/fourseven/scss): Compiles Sass files with node-sass and it has options to control the load order of Sass files and use Autoprefixer on the generated CSS.
