@@ -29,9 +29,10 @@ meteor add stevezhu:lodash reactive-var tracker session fourseven:scss twbs:boot
 ## Global
 - [stevezhu:lodash](https://atmospherejs.com/stevezhu/lodash): Lodash *(remember to add `_ = lodash;` to override underscore)*
 - [reactive-var](https://atmospherejs.com/meteor/reactive-var): Creates reactive data source
-- [tracker](https://atmospherejs.com/meteor/tracker) : Creates reactive computation
-- [session](https://atmospherejs.com/meteor/session) : Session variable
+- [tracker](https://atmospherejs.com/meteor/tracker): Creates reactive computation
+- [session](https://atmospherejs.com/meteor/session): Session variable
 - [momentjs:moment](https://atmospherejs.com/momentjs/moment) Moment.js (official): parse, validate, manipulate, and display dates
+- [raix:handlebar-helpers](https://atmospherejs.com/raix/handlebar-helpers): Handlebar helpers *(as $last and $index for #each)*
 
 ## CSS
 - [fourseven:scss](https://atmospherejs.com/fourseven/scss): Compiles Sass files with node-sass and it has options to control the load order of Sass files and use Autoprefixer on the generated CSS.
@@ -73,3 +74,5 @@ meteor add stevezhu:lodash reactive-var tracker session fourseven:scss twbs:boot
 - [accounts-base](https://atmospherejs.com/meteor/accounts-base) || [accounts-ui](https://atmospherejs.com/meteor/accounts-ui)
 - [accounts-password](https://atmospherejs.com/meteor/accounts-password) / [accounts-facebook](https://atmospherejs.com/meteor/accounts-facebook) / [accounts-google](https://atmospherejs.com/meteor/accounts-google) / *etc.*
 - [alanning:roles](https://atmospherejs.com/alanning/roles): Role-based authorization
+- [tmeasday:presence](https://atmospherejs.com/tmeasday/presence): Help track users' presence *(Visitors counter)*
+- [mizzao:user-status](https://atmospherejs.com/mizzao/user-status): User connection and idle state tracking
