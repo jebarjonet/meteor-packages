@@ -28,6 +28,7 @@ meteor add meteorhacks:npm stevezhu:lodash reactive-var tracker session momentjs
 
 ## Global
 - [meteorhacks:npm](https://atmospherejs.com/meteorhacks/npm): Use npm modules with your Meteor App
+- [percolate:synced-cron](https://atmospherejs.com/percolate/synced-cron): Allows you to define and run scheduled jobs across multiple servers
 - [stevezhu:lodash](https://atmospherejs.com/stevezhu/lodash): Lodash *(remember to add `_ = lodash;` to override underscore)*
 - [reactive-var](https://atmospherejs.com/meteor/reactive-var): Creates reactive data source
 - [tracker](https://atmospherejs.com/meteor/tracker): Creates reactive computation
