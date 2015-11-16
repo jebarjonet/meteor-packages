@@ -23,10 +23,11 @@ To get almost all those packages in a single copy/paste. Remove unnecessary ones
 meteor remove insecure autopublish
 ```
 ```
-meteor add stevezhu:lodash reactive-var tracker session momentjs:moment raix:handlebar-helpers fourseven:scss twbs:bootstrap fortawesome:fontawesome aldeed:collection2 reywood:publish-composite dburles:collection-helpers matb33:collection-hooks meteorhacks:aggregate email aldeed:autoform iron:router multiply:iron-router-progress zimme:active-route zimme:iron-router-auth manuelschoebel:ms-seo aldeed:template-extension accounts-base accounts-password alanning:roles
+meteor add meteorhacks:npm stevezhu:lodash reactive-var tracker session momentjs:moment raix:handlebar-helpers fourseven:scss twbs:bootstrap fortawesome:fontawesome aldeed:collection2 reywood:publish-composite dburles:collection-helpers matb33:collection-hooks meteorhacks:aggregate email aldeed:autoform iron:router multiply:iron-router-progress zimme:active-route zimme:iron-router-auth manuelschoebel:ms-seo aldeed:template-extension accounts-base accounts-password alanning:roles
 ```
 
 ## Global
+- [meteorhacks:npm](https://atmospherejs.com/meteorhacks/npm): Use npm modules with your Meteor App
 - [stevezhu:lodash](https://atmospherejs.com/stevezhu/lodash): Lodash *(remember to add `_ = lodash;` to override underscore)*
 - [reactive-var](https://atmospherejs.com/meteor/reactive-var): Creates reactive data source
 - [tracker](https://atmospherejs.com/meteor/tracker): Creates reactive computation
