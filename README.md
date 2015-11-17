@@ -11,6 +11,7 @@ Basic packages needed to start a nice project
 - [Emails](#emails)
 - [Files](#files)
 - [Forms](#forms)
+- [Mobile](#mobile)
 - [Routes](#routes)
 - [SEO](#seo)
 - [Streaming](#streaming)
@@ -56,6 +57,9 @@ meteor add meteorhacks:npm percolate:synced-cron stevezhu:lodash reactive-var tr
 
 ## Forms
 - [aldeed:autoform](https://atmospherejs.com/aldeed/autoform): Adds UI components and helpers to easily create basic forms with automatic insert and update events, and automatic reactive validation, better with **collection2** *(lot of inputs plugins for autoform available (file upload, autocomplete, selects, maps, etc.))*
+
+## Mobile
+- [ccorcos:swipe](https://atmospherejs.com/ccorcos/swipe): A package for creating apps that swipe between pages
 
 ## Routes
 - [iron:router](https://atmospherejs.com/iron/router): Router
