@@ -36,6 +36,7 @@ meteor add meteorhacks:npm percolate:synced-cron stevezhu:lodash reactive-var tr
 - [session](https://atmospherejs.com/meteor/session): Session variable
 - [momentjs:moment](https://atmospherejs.com/momentjs/moment) Moment.js (official): parse, validate, manipulate, and display dates
 - [raix:handlebar-helpers](https://atmospherejs.com/raix/handlebar-helpers): Handlebar helpers *(as $last and $index for #each)*
+- [digilord:faker](https://atmospherejs.com/digilord/faker): Faker.js packaged for Meteor. Generate massive amounts of fake data
 
 ## CSS
 - [fourseven:scss](https://atmospherejs.com/fourseven/scss): Compiles Sass files with node-sass and it has options to control the load order of Sass files and use Autoprefixer on the generated CSS.
@@ -59,6 +60,7 @@ meteor add meteorhacks:npm percolate:synced-cron stevezhu:lodash reactive-var tr
 - [aldeed:autoform](https://atmospherejs.com/aldeed/autoform): Adds UI components and helpers to easily create basic forms with automatic insert and update events, and automatic reactive validation, better with **collection2** *(lot of inputs plugins for autoform available (file upload, autocomplete, selects, maps, etc.))*
 
 ## Mobile
+- [mystor:device-detection](https://atmospherejs.com/mystor/device-detection): Client-Side Device Type Detection & Template Switching with Optional Meteor-Router Support
 - [ccorcos:swipe](https://atmospherejs.com/ccorcos/swipe): A package for creating apps that swipe between pages
 
 ## Routes
