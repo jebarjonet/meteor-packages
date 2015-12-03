@@ -37,6 +37,7 @@ meteor add meteorhacks:npm percolate:synced-cron stevezhu:lodash reactive-var tr
 - [momentjs:moment](https://atmospherejs.com/momentjs/moment) Moment.js (official): parse, validate, manipulate, and display dates
 - [raix:handlebar-helpers](https://atmospherejs.com/raix/handlebar-helpers): Handlebar helpers *(as $last and $index for #each)*
 - [digilord:faker](https://atmospherejs.com/digilord/faker): Faker.js packaged for Meteor. Generate massive amounts of fake data
+- [mdg:geolocation](https://atmospherejs.com/mdg/geolocation): Provides reactive geolocation on desktop and mobile.
 
 ## CSS
 - [fourseven:scss](https://atmospherejs.com/fourseven/scss): Compiles Sass files with node-sass and it has options to control the load order of Sass files and use Autoprefixer on the generated CSS.
