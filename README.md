@@ -24,7 +24,7 @@ To get almost all those packages in a single copy/paste. Remove unnecessary ones
 meteor remove insecure autopublish
 ```
 ```
-meteor add meteorhacks:npm percolate:synced-cron stevezhu:lodash reactive-var tracker session momentjs:moment raix:handlebar-helpers fourseven:scss twbs:bootstrap fortawesome:fontawesome aldeed:collection2 reywood:publish-composite dburles:collection-helpers matb33:collection-hooks meteorhacks:aggregate email aldeed:autoform iron:router multiply:iron-router-progress zimme:active-route zimme:iron-router-auth manuelschoebel:ms-seo aldeed:template-extension accounts-base accounts-password alanning:roles
+meteor add stevezhu:lodash reactive-var tracker session raix:handlebar-helpers fourseven:scss aldeed:collection2 reywood:publish-composite dburles:collection-helpers matb33:collection-hooks email aldeed:autoform iron:router multiply:iron-router-progress zimme:active-route zimme:iron-router-auth aldeed:template-extension accounts-base accounts-password
 ```
 
 ## Global
