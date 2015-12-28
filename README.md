@@ -19,10 +19,11 @@ Basic packages needed to start a nice project
 - [Users](#users)
 
 ## Quick copy
-To get almost all those packages in a single copy/paste. Remove unnecessary ones :
+To get some of those packages in a single copy/paste. Remove unnecessary ones :
 ```
 meteor remove insecure autopublish
 ```
+Then add those ones :
 ```
 meteor add stevezhu:lodash reactive-var tracker session raix:handlebar-helpers fourseven:scss aldeed:collection2 reywood:publish-composite dburles:collection-helpers matb33:collection-hooks email aldeed:autoform iron:router multiply:iron-router-progress zimme:active-route zimme:iron-router-auth aldeed:template-extension accounts-base accounts-password
 ```
@@ -48,6 +49,7 @@ meteor add stevezhu:lodash reactive-var tracker session raix:handlebar-helpers f
 - [reywood:publish-composite](https://atmospherejs.com/reywood/publish-composite): Flexible way to publish a set of related documents from various collections using a reactive join. This makes it easy to publish a whole tree of documents at once. The published collections are reactive and will update when additions/changes/deletions are made.
 - [dburles:collection-helpers](https://atmospherejs.com/dburles/collection-helpers): Transform collections with helpers
 - [matb33:collection-hooks](https://atmospherejs.com/matb33/collection-hooks): Extends Mongo.Collection with before/after hooks for insert/update/remove/find/findOne
+- [tmeasday:publish-counts](https://atmospherejs.com/tmeasday/publish-counts): Publish the count of a cursor, in real time
 - [meteorhacks:aggregate](https://atmospherejs.com/meteorhacks/aggregate): Proper MongoDB aggregations support *(server side, not reactive)*
 
 ## Emails
