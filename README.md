@@ -49,6 +49,7 @@ meteor add stevezhu:lodash reactive-var tracker session raix:handlebar-helpers f
 - [reywood:publish-composite](https://atmospherejs.com/reywood/publish-composite): Flexible way to publish a set of related documents from various collections using a reactive join. This makes it easy to publish a whole tree of documents at once. The published collections are reactive and will update when additions/changes/deletions are made.
 - [dburles:collection-helpers](https://atmospherejs.com/dburles/collection-helpers): Transform collections with helpers
 - [matb33:collection-hooks](https://atmospherejs.com/matb33/collection-hooks): Extends Mongo.Collection with before/after hooks for insert/update/remove/find/findOne
+- [ongoworks:security](https://atmospherejs.com/ongoworks/security): Logical security for client-originated MongoDB collection operations
 - [tmeasday:publish-counts](https://atmospherejs.com/tmeasday/publish-counts): Publish the count of a cursor, in real time
 - [meteorhacks:aggregate](https://atmospherejs.com/meteorhacks/aggregate): Proper MongoDB aggregations support *(server side, not reactive)*
 
