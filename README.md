@@ -36,7 +36,6 @@ meteor add stevezhu:lodash reactive-var tracker session raix:handlebar-helpers f
 - [tracker](https://atmospherejs.com/meteor/tracker): Creates reactive computation
 - [session](https://atmospherejs.com/meteor/session): Session variable
 - [momentjs:moment](https://atmospherejs.com/momentjs/moment) Moment.js (official): parse, validate, manipulate, and display dates
-- [raix:handlebar-helpers](https://atmospherejs.com/raix/handlebar-helpers): Handlebar helpers *(as $last and $index for #each)*
 - [digilord:faker](https://atmospherejs.com/digilord/faker): Faker.js packaged for Meteor. Generate massive amounts of fake data
 
 ## CSS
@@ -81,6 +80,7 @@ meteor add stevezhu:lodash reactive-var tracker session raix:handlebar-helpers f
 
 ## Templates
 - [aldeed:template-extension](https://atmospherejs.com/aldeed/template-extension): Template hooks + inheritance and copy of template events/helpers
+- [raix:handlebar-helpers](https://atmospherejs.com/raix/handlebar-helpers): Handlebar helpers *(as $last and $index for #each)*
 
 ## Users
 - [accounts-base](https://atmospherejs.com/meteor/accounts-base) || [accounts-ui](https://atmospherejs.com/meteor/accounts-ui)
