@@ -81,6 +81,7 @@ meteor add stevezhu:lodash reactive-var tracker session raix:handlebar-helpers f
 ## Templates
 - [aldeed:template-extension](https://atmospherejs.com/aldeed/template-extension): Template hooks + inheritance and copy of template events/helpers
 - [raix:handlebar-helpers](https://atmospherejs.com/raix/handlebar-helpers): Handlebar helpers *(as $last and $index for #each)*
+- [manuel:viewmodel](https://atmospherejs.com/manuel/viewmodel): MVVM, two-way data binding, and components for Meteor. Similar to Angular and Knockout.
 
 ## Users
 - [accounts-base](https://atmospherejs.com/meteor/accounts-base) || [accounts-ui](https://atmospherejs.com/meteor/accounts-ui)
