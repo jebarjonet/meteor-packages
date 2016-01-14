@@ -25,13 +25,13 @@ meteor remove insecure autopublish
 ```
 Then add those ones :
 ```
-meteor add stevezhu:lodash reactive-var tracker session raix:handlebar-helpers fourseven:scss aldeed:collection2 reywood:publish-composite dburles:collection-helpers matb33:collection-hooks email aldeed:autoform iron:router multiply:iron-router-progress zimme:active-route zimme:iron-router-auth aldeed:template-extension accounts-base accounts-password
+meteor add erasaur:meteor-lodash reactive-var tracker session raix:handlebar-helpers fourseven:scss aldeed:collection2 reywood:publish-composite dburles:collection-helpers matb33:collection-hooks email aldeed:autoform iron:router multiply:iron-router-progress zimme:active-route zimme:iron-router-auth aldeed:template-extension accounts-base accounts-password
 ```
 
 ## Global
 - [meteorhacks:npm](https://atmospherejs.com/meteorhacks/npm): Use npm modules with your Meteor App
 - [percolate:synced-cron](https://atmospherejs.com/percolate/synced-cron): Allows you to define and run scheduled jobs across multiple servers
-- [stevezhu:lodash](https://atmospherejs.com/stevezhu/lodash): Lodash *(remember to add `_ = lodash;` to override underscore)*
+- [erasaur:meteor-lodash](https://atmospherejs.com/erasaur/meteor-lodash): Lodash *(remember to add `_ = lodash;` to override underscore)*
 - [reactive-var](https://atmospherejs.com/meteor/reactive-var): Creates reactive data source
 - [tracker](https://atmospherejs.com/meteor/tracker): Creates reactive computation
 - [session](https://atmospherejs.com/meteor/session): Session variable
