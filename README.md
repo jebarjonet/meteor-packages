@@ -47,7 +47,7 @@ meteor add stevezhu:lodash reactive-var tracker session momentjs:moment fourseve
 - [fourseven:scss](https://atmospherejs.com/fourseven/scss): Compiles Sass files with node-sass and it has options to control the load order of Sass files and use Autoprefixer on the generated CSS.
 - [twbs:bootstrap](https://atmospherejs.com/twbs/bootstrap): Twitter Bootstrap
 - [fortawesome:fontawesome](https://atmospherejs.com/fortawesome/fontawesome): FontAwesome
-- 
+
 *Note that Meteor already has a less compiler by default*
 
 ## Collections
