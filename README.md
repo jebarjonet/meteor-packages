@@ -88,7 +88,8 @@ meteor add stevezhu:lodash reactive-var tracker session momentjs:moment fourseve
 - *[zimme:iron-router-auth](https://atmospherejs.com/zimme/iron-router-auth): Authentication and authorization for iron:router*
 
 ## SEO
-- [manuelschoebel:ms-seo](https://atmospherejs.com/manuelschoebel/ms-seo): SEO helper
+- [manuelschoebel:ms-seo](https://atmospherejs.com/manuelschoebel/ms-seo): SEO helper for **Iron Router**
+- [tomwasd:flow-router-seo](https://atmospherejs.com/tomwasd/flow-router-seo): A simple way to set the title and meta tags for sites using **Flow Router**
 
 ## Streaming
 - [yuukan:streamy](https://atmospherejs.com/yuukan/streamy): Used for classic socket communication without needing a database (example : a chat)
