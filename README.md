@@ -12,6 +12,7 @@ Basic packages needed to start a nice project
 - [Emails](#emails)
 - [Files](#files)
 - [Forms](#forms)
+- [Methods](#methods)
 - [Mobile](#mobile)
 - [Router](#router)
 - [SEO](#seo)
@@ -27,7 +28,7 @@ meteor remove insecure autopublish
 ```
 Then add those ones :
 ```
-meteor add stevezhu:lodash reactive-var tracker session momentjs:moment fourseven:scss twbs:bootstrap fortawesome:fontawesome aldeed:collection2 dburles:collection-helpers matb33:collection-hooks ongoworks:security aldeed:autoform kadira:flow-router kadira:blaze-layout arillo:flow-router-helpers settinghead:auto-nprogress zimme:active-route manuel:viewmodel aldeed:template-extension raix:handlebar-helpers juliancwirko:s-alert
+meteor add stevezhu:lodash reactive-var tracker session momentjs:moment fourseven:scss twbs:bootstrap fortawesome:fontawesome aldeed:collection2 dburles:collection-helpers matb33:collection-hooks ongoworks:security aldeed:autoform mdg:validated-method kadira:flow-router kadira:blaze-layout arillo:flow-router-helpers settinghead:auto-nprogress zimme:active-route manuel:viewmodel aldeed:template-extension raix:handlebar-helpers juliancwirko:s-alert
 ```
 
 ## Global
@@ -69,6 +70,9 @@ meteor add stevezhu:lodash reactive-var tracker session momentjs:moment fourseve
 ## Forms
 - [aldeed:autoform](https://atmospherejs.com/aldeed/autoform): Adds UI components and helpers to easily create basic forms with automatic insert and update events, and automatic reactive validation, better with **collection2** *(lot of inputs plugins for autoform available (file upload, autocomplete, selects, maps, etc.))*
 - [shinn:autoform-file](https://atmospherejs.com/shinn/autoform-file): File upload for AutoForm **(temporary package, fork of broken original one, you should clone/keep it as your app content)**
+
+## Methods
+- [mdg:validated-method](https://atmospherejs.com/mdg/validated-method): A simple wrapper for Meteor.methods
 
 ## Mobile
 - [gadicohen:reactive-window](https://atmospherejs.com/gadicohen/reactive-window): Reactive functions for window properties; width, scroll, etc.
