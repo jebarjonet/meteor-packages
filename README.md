@@ -28,7 +28,7 @@ meteor remove insecure autopublish
 ```
 Then add those ones :
 ```
-meteor add stevezhu:lodash reactive-var tracker session momentjs:moment fourseven:scss twbs:bootstrap fortawesome:fontawesome aldeed:collection2 dburles:collection-helpers matb33:collection-hooks ongoworks:security aldeed:autoform mdg:validated-method kadira:flow-router kadira:blaze-layout arillo:flow-router-helpers settinghead:auto-nprogress zimme:active-route aldeed:template-extension raix:handlebar-helpers juliancwirko:s-alert
+meteor add stevezhu:lodash reactive-var tracker session momentjs:moment fourseven:scss twbs:bootstrap fortawesome:fontawesome aldeed:collection2 dburles:collection-helpers matb33:collection-hooks aldeed:autoform mdg:validated-method kadira:flow-router kadira:blaze-layout arillo:flow-router-helpers settinghead:auto-nprogress zimme:active-route aldeed:template-extension raix:handlebar-helpers juliancwirko:s-alert
 ```
 
 ## Global
@@ -56,9 +56,11 @@ meteor add stevezhu:lodash reactive-var tracker session momentjs:moment fourseve
 - [reywood:publish-composite](https://atmospherejs.com/reywood/publish-composite): Flexible way to publish a set of related documents from various collections using a reactive join. This makes it easy to publish a whole tree of documents at once. The published collections are reactive and will update when additions/changes/deletions are made.
 - [dburles:collection-helpers](https://atmospherejs.com/dburles/collection-helpers): Transform collections with helpers
 - [matb33:collection-hooks](https://atmospherejs.com/matb33/collection-hooks): Extends Mongo.Collection with before/after hooks for insert/update/remove/find/findOne
-- [ongoworks:security](https://atmospherejs.com/ongoworks/security): Logical security for client-originated MongoDB collection operations
 - [tmeasday:publish-counts](https://atmospherejs.com/tmeasday/publish-counts): Publish the count of a cursor, in real time
 - [meteorhacks:aggregate](https://atmospherejs.com/meteorhacks/aggregate): Proper MongoDB aggregations support *(server side, not reactive)*
+
+**Below useful but not recommended since Meteor 1.3 release**
+- [ongoworks:security](https://atmospherejs.com/ongoworks/security): Logical security for client-originated MongoDB collection operations
 
 ## Emails
 - [email](https://atmospherejs.com/meteor/email)
