@@ -75,6 +75,8 @@ meteor add stevezhu:lodash reactive-var tracker session momentjs:moment fourseve
 - [mdg:validated-method](https://atmospherejs.com/mdg/validated-method): A simple wrapper for Meteor.methods
 
 ## Mobile
+- [crosswalk](https://atmospherejs.com/meteor/crosswalk): Makes your Cordova application use the Crosswalk WebView instead of the System WebView on Android
+- [chriswessels:hammer](https://atmospherejs.com/chriswessels/hammer): A smart-package for integrating with Hammer.js for multi-touch gesture support in your Templates
 - [gadicohen:reactive-window](https://atmospherejs.com/gadicohen/reactive-window): Reactive functions for window properties; width, scroll, etc.
 - [mystor:device-detection](https://atmospherejs.com/mystor/device-detection): Client-Side Device Type Detection & Template Switching with Optional Meteor-Router Support
 - [ccorcos:swipe](https://atmospherejs.com/ccorcos/swipe): A package for creating apps that swipe between pages
@@ -99,9 +101,11 @@ meteor add stevezhu:lodash reactive-var tracker session momentjs:moment fourseve
 - [yuukan:streamy](https://atmospherejs.com/yuukan/streamy): Used for classic socket communication without needing a database (example : a chat)
 
 ## Templates
-- [manuel:viewmodel](https://atmospherejs.com/manuel/viewmodel): MVVM, two-way data binding, and components for Meteor. Similar to Angular and Knockout.
 - [aldeed:template-extension](https://atmospherejs.com/aldeed/template-extension): Template hooks + inheritance and copy of template events/helpers
 - [raix:handlebar-helpers](https://atmospherejs.com/raix/handlebar-helpers): Handlebar helpers *(as $last and $index for #each)*
+
+**Below View model instead of default Blaze** : probably not the best choice (has some bugs / incompatibility with other packages)
+- [manuel:viewmodel](https://atmospherejs.com/manuel/viewmodel): MVVM, two-way data binding, and components for Meteor. Similar to Angular and Knockout.
 
 ## Users
 - [accounts-base](https://atmospherejs.com/meteor/accounts-base) || [accounts-ui](https://atmospherejs.com/meteor/accounts-ui)
