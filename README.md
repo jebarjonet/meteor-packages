@@ -87,7 +87,7 @@ meteor add stevezhu:lodash reactive-var tracker session momentjs:moment fourseve
 - [kadira:flow-router](https://atmospherejs.com/kadira/flow-router): Carefully Designed Client Side Router for Meteor
 - [kadira:blaze-layout](https://atmospherejs.com/kadira/blaze-layout): Layout Manager for Blaze (works well with FlowRouter)
 - [arillo:flow-router-helpers](https://atmospherejs.com/arillo/flow-router-helpers): Template helpers for flow-router
-- [settinghead:auto-nprogress](https://atmospherejs.com/settinghead/auto-nprogress): A Meteor package that automatically shows a NProgress.js bar during DDP data exchanges.
+- [mrt:nprogress](https://atmospherejs.com/mrt/nprogress): A Meteor package that automatically shows a NProgress.js bar during DDP data exchanges.
 - [zimme:active-route](https://atmospherejs.com/zimme/active-route): Active route helpers
 
 **Below Iron Router config instead of Flow Router** : probably not the best choice
