@@ -17,6 +17,7 @@ Basic packages needed to start a nice project
 - [Router](#router)
 - [Streaming](#streaming)
 - [Templates](#templates)
+- [Testing](#testing)
 - [Users](#users)
 - [UX](#user-experience)
 
