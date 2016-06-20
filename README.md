@@ -15,7 +15,6 @@ Basic packages needed to start a nice project
 - [Methods](#methods)
 - [Mobile](#mobile)
 - [Router](#router)
-- [SEO](#seo)
 - [Streaming](#streaming)
 - [Templates](#templates)
 - [Users](#users)
@@ -28,11 +27,14 @@ meteor remove insecure autopublish
 ```
 Then add those ones :
 ```
-meteor add stevezhu:lodash reactive-var tracker session momentjs:moment fourseven:scss twbs:bootstrap fortawesome:fontawesome aldeed:collection2 dburles:collection-helpers matb33:collection-hooks aldeed:autoform mdg:validated-method kadira:flow-router kadira:blaze-layout arillo:flow-router-helpers settinghead:auto-nprogress zimme:active-route aldeed:template-extension raix:handlebar-helpers juliancwirko:s-alert
+meteor add momentjs:moment twbs:bootstrap fortawesome:fontawesome juliancwirko:s-alert juliancwirko:s-alert-slide settinghead:auto-nprogress reactive-dict reactive-var aldeed:template-extension raix:handlebar-helpers aldeed:simple-schema aldeed:collection2 dburles:collection-helpers matb33:collection-hooks reywood:publish-composite tmeasday:publish-counts mdg:validated-method doctorpangloss:method-hooks tunifight:loggedin-mixin rlivingston:simple-schema-mixin aldeed:autoform shinn:autoform-file kadira:flow-router kadira:blaze-layout arillo:flow-router-helpers zimme:active-route tomwasd:flow-router-seo
+```
+Add those ones if you need testing environment :
+```
+meteor add dburles:factory xolvio:cleaner dispatch:mocha-phantomjs practicalmeteor:mocha hwillson:stub-collections johanbrook:publication-collector
 ```
 
 ## Global
-- [stevezhu:lodash](https://atmospherejs.com/stevezhu/lodash): Lodash *(remember to add `_ = lodash;` to override underscore)*
 - [reactive-var](https://atmospherejs.com/meteor/reactive-var): Creates reactive data source
 - [tracker](https://atmospherejs.com/meteor/tracker): Creates reactive computation
 - [session](https://atmospherejs.com/meteor/session): Session variable
@@ -45,9 +47,9 @@ meteor add stevezhu:lodash reactive-var tracker session momentjs:moment fourseve
 - [nimble:restivus](https://atmospherejs.com/nimble/restivus): Create authenticated REST APIs in Meteor 0.9+ via HTTP/HTTPS. Setup CRUD endpoints for Collections.
 
 ## CSS
-- [fourseven:scss](https://atmospherejs.com/fourseven/scss): Compiles Sass files with node-sass and it has options to control the load order of Sass files and use Autoprefixer on the generated CSS.
 - [twbs:bootstrap](https://atmospherejs.com/twbs/bootstrap): Twitter Bootstrap
 - [fortawesome:fontawesome](https://atmospherejs.com/fortawesome/fontawesome): FontAwesome
+- [fourseven:scss](https://atmospherejs.com/fourseven/scss): Compiles Sass files with node-sass and it has options to control the load order of Sass files and use Autoprefixer on the generated CSS.
 
 *Note that Meteor already has a less compiler by default*
 
@@ -58,9 +60,6 @@ meteor add stevezhu:lodash reactive-var tracker session momentjs:moment fourseve
 - [matb33:collection-hooks](https://atmospherejs.com/matb33/collection-hooks): Extends Mongo.Collection with before/after hooks for insert/update/remove/find/findOne
 - [tmeasday:publish-counts](https://atmospherejs.com/tmeasday/publish-counts): Publish the count of a cursor, in real time
 - [meteorhacks:aggregate](https://atmospherejs.com/meteorhacks/aggregate): Proper MongoDB aggregations support *(server side, not reactive)*
-
-**Below useful but not recommended since Meteor 1.3 release**
-- [ongoworks:security](https://atmospherejs.com/ongoworks/security): Logical security for client-originated MongoDB collection operations
 
 ## Emails
 - [email](https://atmospherejs.com/meteor/email)
@@ -89,15 +88,7 @@ meteor add stevezhu:lodash reactive-var tracker session momentjs:moment fourseve
 - [arillo:flow-router-helpers](https://atmospherejs.com/arillo/flow-router-helpers): Template helpers for flow-router
 - [settinghead:auto-nprogress](https://atmospherejs.com/settinghead/auto-nprogress): A Meteor package that automatically shows a NProgress.js bar during DDP data exchanges.
 - [zimme:active-route](https://atmospherejs.com/zimme/active-route): Active route helpers
-
-**Below Iron Router config instead of Flow Router** : probably not the best choice
-- *[iron:router](https://atmospherejs.com/iron/router): Router*
-- *[multiply:iron-router-progress](https://atmospherejs.com/multiply/iron-router-progress): Add progress bar on the top of the screen*
-- *[zimme:iron-router-auth](https://atmospherejs.com/zimme/iron-router-auth): Authentication and authorization for iron:router*
-
-## SEO
-- [manuelschoebel:ms-seo](https://atmospherejs.com/manuelschoebel/ms-seo): SEO helper for **Iron Router**
-- [tomwasd:flow-router-seo](https://atmospherejs.com/tomwasd/flow-router-seo): A simple way to set the title and meta tags for sites using **Flow Router**
+- [tomwasd:flow-router-seo](https://atmospherejs.com/tomwasd/flow-router-seo): A simple way to set the title and meta tags for sites using flow router
 
 ## Streaming
 - [yuukan:streamy](https://atmospherejs.com/yuukan/streamy): Used for classic socket communication without needing a database (example : a chat)
@@ -106,8 +97,13 @@ meteor add stevezhu:lodash reactive-var tracker session momentjs:moment fourseve
 - [aldeed:template-extension](https://atmospherejs.com/aldeed/template-extension): Template hooks + inheritance and copy of template events/helpers
 - [raix:handlebar-helpers](https://atmospherejs.com/raix/handlebar-helpers): Handlebar helpers *(as $last and $index for #each)*
 
-**Below View model instead of default Blaze** : probably not the best choice (has some bugs / incompatibility with other packages)
-- [manuel:viewmodel](https://atmospherejs.com/manuel/viewmodel): MVVM, two-way data binding, and components for Meteor. Similar to Angular and Knockout.
+## Testing
+- [dburles:factory](https://atmospherejs.com/dburles/factory): Factories for Meteor
+- [xolvio:cleaner](https://atmospherejs.com/xolvio/cleaner): Gives you methods to clear your Mongo database and collections for testing purposes
+- [dispatch:mocha-phantomjs](https://atmospherejs.com/dispatch/mocha-phantomjs): Run package or app tests with Mocha+PhantomJS and report all results in the server console
+- [practicalmeteor:mocha](https://atmospherejs.com/practicalmeteor/mocha): Write package tests with mocha and run them in the browser or from the command line with spacejam.
+- [hwillson:stub-collection](https://atmospherejs.com/hwillson/stub-collections): Stub out Meteor collections with in-memory local collections.
+- [johanbrook:publication-collector](https://atmospherejs.com/johanbrook/publication-collector): Test a Meteor publication by collecting its output.
 
 ## Users
 - [accounts-base](https://atmospherejs.com/meteor/accounts-base) || [accounts-ui](https://atmospherejs.com/meteor/accounts-ui)
@@ -117,4 +113,4 @@ meteor add stevezhu:lodash reactive-var tracker session momentjs:moment fourseve
 - [mizzao:user-status](https://atmospherejs.com/mizzao/user-status): User connection and idle state tracking
 
 ## User experience
-- [juliancwirko:s-alert](https://atmospherejs.com/juliancwirko/s-alert): Simple and fancy notifications / alerts / errors for Meteor
+- [juliancwirko:s-alert](https://atmospherejs.com/juliancwirko/s-alert): Simple and fancy notifications / alerts / errors for Meteor (to use with **juliancwirko:s-alert-slide** for example)
